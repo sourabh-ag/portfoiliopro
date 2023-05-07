@@ -1,0 +1,33 @@
+{
+  "name": "portfoliopro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run  server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sourabh-ag/sourabhportfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sourabh-ag/sourabhportfolio/issues"
+  },
+  "homepage": "https://github.com/sourabh-ag/sourabhportfolio#readme",
+  "description": ""
+}
