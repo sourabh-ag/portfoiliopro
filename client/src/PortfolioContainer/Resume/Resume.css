@@ -99,6 +99,11 @@
   width: 100%;
 }
 
+.experience-container a{
+  text-decoration: none;
+  color: #ff5823;
+}
+
 .resume-heading {
   display: flex;
   flex-direction: column;

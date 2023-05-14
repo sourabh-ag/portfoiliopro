@@ -19,11 +19,13 @@ export default function AboutMe(props) {
       "I am final year Computer Science UnderGrad from Birla Institute of Technology, Mesra interested in Business & Product Analysis Positions. Strong grasp of both Technical & Business perspectives and ability to work in fast-paced environment and solve multi-disciplinary problems. My Project Management internship experience at Jaipur Metro Rail Corporation LTD. on building large-scale projects and undertanding of requirement gathering in Project Development Life Cycle will benefit your organisation. I enjoy working in both individual and team setting and will prove to be a valuable asset to your company.",
     highlights: {
       bullets: [
-        "mySQL",
+        "MySQL",
         "Tableau",
+        "Advance Excel",
         "Business Intelligence",
-        "Requirement Gathering",
-        "Software Development Life Cycle",
+        "Requirement Elicitation",
+        "Case Study and BRD",
+        "Product Development Life Cycle",
         "Managing Database",
         "Front End React Web Development",
       ],

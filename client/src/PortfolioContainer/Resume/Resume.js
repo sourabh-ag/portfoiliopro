@@ -45,22 +45,21 @@ const Resume = (props) => {
   /* STATIC RESUME DATA FOR THE LABELS*/
   const resumeBullets = [
     { label: "Education", logoSrc: "education.svg" },
-    { label: "Work History", logoSrc: "work-history.svg" },
-    { label: "Programming Skills", logoSrc: "programming-skills.svg" },
+    { label: "Courses & Certificates", logoSrc: "work-history.svg" },
+    { label: "Analytical Skills", logoSrc: "programming-skills.svg" },
     { label: "Projects", logoSrc: "projects.svg" },
     { label: "Interests", logoSrc: "interests.svg" },
   ];
 
   //here we have
   const programmingSkillsDetails = [
-    { skill: "mySQL", ratingPercentage: 80 },
+    { skill: "mySQL", ratingPercentage: 90 },
     { skill: "Tableau", ratingPercentage: 70 },
-    { skill: "Problem Solving", ratingPercentage: 80 },
-    { skill: "JavaScript", ratingPercentage: 85 },
-    { skill: "React JS", ratingPercentage: 70 },
-    { skill: "C++", ratingPercentage: 89 },
-    { skill: "HTML", ratingPercentage: 89 },
-    { skill: "CSS", ratingPercentage: 89 },
+    { skill: "Advance Excel", ratingPercentage: 80 },
+    { skill: "Management Information System", ratingPercentage: 80 },
+    { skill: "Case Study and BRD", ratingPercentage: 80 },
+    { skill: "Product Development Life Cycle", ratingPercentage: 80 },
+    { skill: "ReactJS", ratingPercentage: 70 },
   ];
 
   const projectsDetails = [
@@ -104,28 +103,57 @@ const Resume = (props) => {
       
     </div>,
 
-    /* WORK EXPERIENCE */
-    <div className="resume-screen-container" key="work-experience">
-      <div className="experience-container">
-        <ResumeHeading
-          heading={"Jaipur Metro Rail Coporation LTD."}
-          subHeading={"PROJECT MANAGEMENT INTERN"}
-          fromDate={"Feb 2022"}
-          toDate={"March 2022"}
-        />
-        <div className="experience-description">
-          <span className="resume-description-text">
-          - The internship aimed to provide an in-depth knowledge of various aspects of Project Operations design, and the challenges faced during project management of Jaipur Metro.
-          </span>
-        </div>
-        <div className="experience-description">
-          <span className="resume-description-text">
-            - Got a brief understanding of how a large-scale project is developed from conceiving of an idea to planning to execution and finally handing it over for public use considering various other parameters like Finance, Quality Measurement, Contract Management, Public Safety, Maintenance and Timely Delivery Of Project.
-          </span>
-          <br />
-        </div>
-      </div>
-    </div>,
+    /* COURSES & CERTIFICATES */
+    
+<div className="resume-screen-container" key="work-experience">
+       <div className="experience-container">
+         <ResumeHeading
+           heading={<a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/JPMorgan%20Chase%20Corporate/dJgTXj3M5zcSY79Hn_JPMorgan%20Chase%20&%20Co._3vvXfdgWrXd9gpXBd_1683989897149_completion_certificate.pdf" target="_main">JP Morgan Chase Co.</a>}
+           subHeading={"Global Finance & Business Management"}
+           fromDate={""}
+           toDate={""}
+         />
+         <div className="experience-description">
+           <span className="resume-description-text">
+             - Throughout this comprehensive program, I gained in-depth knowledge of various aspects of finance and honed my business analytical skills. The course covered a wide range of topics, including Data Analysis, interpretation, Visualisation, Financial Analysis, and Business Forecasting utilizing a range of analytical Techniques & Tools such as Tableau, Advance Excel, and Powerpoint Presentation.
+           </span>
+           <br />
+         </div>
+         <ResumeHeading
+           heading={"Coursera"}
+           subHeading={"Tableau"}
+           fromDate={""}
+           toDate={""}
+         />
+         <div className="experience-description">
+           <span className="resume-description-text">
+           - Used Tableau to connect to various data sources, visualize data, and create interactive dashboards, reports, and charts and draw meaningful insights through intuitive visualizations.
+           </span>
+         </div>
+       </div>
+     </div>,
+
+    // <div className="resume-screen-container" key="work-experience">
+    //   <div className="experience-container">
+    //     <ResumeHeading
+    //       heading={"Jaipur Metro Rail Coporation LTD."}
+    //       subHeading={"PROJECT MANAGEMENT INTERN"}
+    //       fromDate={"Feb 2022"}
+    //       toDate={"March 2022"}
+    //     />
+    //     <div className="experience-description">
+    //       <span className="resume-description-text">
+    //       - The internship aimed to provide an in-depth knowledge of various aspects of Project Operations design, and the challenges faced during project management of Jaipur Metro.
+    //       </span>
+    //     </div>
+    //     <div className="experience-description">
+    //       <span className="resume-description-text">
+    //         - Got a brief understanding of how a large-scale project is developed from conceiving of an idea to planning to execution and finally handing it over for public use considering various other parameters like Finance, Quality Measurement, Contract Management, Public Safety, Maintenance and Timely Delivery Of Project.
+    //       </span>
+    //       <br />
+    //     </div>
+    //   </div>
+    // </div>,
 
     /* PROGRAMMING SKILLS */
     <div
@@ -164,7 +192,7 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="interests">
       <ResumeHeading
         heading="Management & Consultancy"
-        description="I like to identify organizational challenges, gather and analyze information, and develop effective solutions."
+        description="As a highly analytical individual with a passion for business strategy and data-driven decision-making I like to identify opportunities for improvement and optimisation within an organisation. and develop effective solutions. I am sound from both Technical and Business perspectives and possess good knowledge of BRD, FRD, Requirement Elicitation & Planning in PDLC and experience working with stakeholders and product owners."
       />
       <ResumeHeading
         heading="Music"

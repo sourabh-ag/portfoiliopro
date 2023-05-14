@@ -10,11 +10,11 @@ export default function Profile() {
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icon">
-              <a href="https://www.linkedin.com/in/sourabh-agarwal-9695021b7/">
+              <a href="https://www.linkedin.com/in/sourabh-agarwal-9695021b7/" target="_blank">
                 <i className="fa fa-linkedin" />
               </a>
               {" "}
-              <a href="https://github.com/sourabh-ag">
+              <a href="https://github.com/sourabh-ag" target="_blank">
                 <i className="fa fa-github" />
               </a>
             </div>
@@ -35,9 +35,12 @@ export default function Profile() {
                     loop: true,
                     delay: 20,
                     strings: [
-                        "mySQL",
+                        "MySQL",
                         "Tableau",
-                        "Business Intelligence",
+                        "Advance Excel",
+                        "Management Information System",
+                        "Business Communication",
+                        "Case Study and BRD",
                         "Product Analyst",
                         "React Developer",
                         "Keen Learner",
@@ -47,7 +50,7 @@ export default function Profile() {
               </h1>
             </span>
             <span className="profile-role-tagline">
-              Knack of building insights and data visualisation using Tableau and mySQL.
+              Knack of building insights and data visualisation using Tableau, MySQL and Advance Excel.
             </span>
           </div>
 

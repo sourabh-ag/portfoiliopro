@@ -20,14 +20,5 @@
     "express": "^4.18.2",
     "nodemailer": "^6.9.1",
     "nodemon": "^2.0.22"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sourabh-ag/sourabhportfolio.git"
-  },
-  "bugs": {
-    "url": "https://github.com/sourabh-ag/sourabhportfolio/issues"
-  },
-  "homepage": "https://github.com/sourabh-ag/sourabhportfolio#readme",
-  "description": ""
+  }
 }
